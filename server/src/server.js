@@ -1,43 +1,19 @@
 const express = require('express');
-const path = require('path');
 const bodyParser = require('body-parser');
-const sequelize = require('./config/database');
-const engageFormRoutes = require('./api/routes/engageFormRoutes');
-const contactFormRoutes = require('./api/routes/contactFormRoutes');
-require('dotenv').config();
+const cors = require('cors');  // Import the cors library
+const contactFormRoutes = require('../routes/contactFormRoutes');
 
 const app = express();
-
-// Serve the static files from the React app
-app.use(express.static(path.join(__dirname, '../../vyaelea/build')));
+const PORT = process.env.PORT || 5000;
 
 // Middleware
+app.use(cors());  // Enable CORS for all requests
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
-// API routes
-app.use('/api', engageFormRoutes);
-app.use('/api', contactFormRoutes);
+// Routes
+app.use('/', contactFormRoutes);
 
-// Handle React routing, return all requests to React app
-app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../../vyaelea/build', 'index.html'));
+app.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
 });
-
-const port = process.env.PORT || 5000;
-
-// Error handling middleware
-app.use((err, req, res, next) => {
-  console.error(err.stack);
-  res.status(500).send('Internal Server Error');
-});
-
-// Sync database and start server
-sequelize.sync()
-  .then(() => {
-    app.listen(port, () => {
-      console.log(`Server is running on port ${port}`);
-    });
-  })
-  .catch(err => {
-    console.error('Unable to connect to the database:', err);
-  });

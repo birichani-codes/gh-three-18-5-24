@@ -1,6 +1,7 @@
 'use strict';
 const { Sequelize, Model } = require('sequelize');
-// Update the path
+const sequelize = require('../../config/database');
+
 class ContactForm extends Model {}
 
 ContactForm.init({
@@ -44,7 +45,7 @@ ContactForm.init({
   sequelize,
   paranoid: true,
   freezeTableName: true,
-  modelName: 'contact_form'
+  modelName: 'ContactForms'
 });
 
 module.exports = ContactForm;
