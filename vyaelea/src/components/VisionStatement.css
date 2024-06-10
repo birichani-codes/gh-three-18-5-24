@@ -1,0 +1,10 @@
+/* src/components/VisionStatement.css */
+.vision-section {
+  text-align: center;
+  padding: 20px 0; /* Ensure spacing around the vision section */
+}
+
+.vision-text {
+  font-size: 30px;
+  color: gold;
+}

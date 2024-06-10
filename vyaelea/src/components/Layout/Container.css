@@ -1,0 +1,8 @@
+/* src/components/Container.css */
+.common-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: #0C0A00; /* Assuming this is the common background color */
+    color: gold; /* Assuming this is the common text color */
+}

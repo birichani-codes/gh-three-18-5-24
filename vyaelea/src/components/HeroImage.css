@@ -1,0 +1,11 @@
+/* src/components/HeroImage.css */
+.hero-image-container {
+  padding-bottom: 20px; /* Ensure spacing below the hero image */
+}
+
+.jumbotron-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border: 0;
+}
