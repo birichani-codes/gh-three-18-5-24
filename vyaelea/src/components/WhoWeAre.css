@@ -1,0 +1,57 @@
+.who-we-are-section {
+  background-color: #0C0A00;
+  color: #FFD700;
+  font-family: 'Overlock', sans-serif;
+}
+
+.section-title {
+  color: #FFD700;
+  font-size: 25px;
+  padding-top: 10px;
+}
+
+.section-description {
+  color: #FFD700;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.section-border {
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.section-subtitle {
+  color: #FFD700;
+  font-size: 25px;
+}
+
+.section-text {
+  margin-top: 5px;
+  color: #FFD700;
+  font-size: 20px;
+}
+
+.core-pillars {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.core-pillar-card {
+  background-color: #0C0A00;
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: left;
+  font-size: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.core-pillar-card h4 {
+  color: #FFD700;
+}
+
+.core-pillar-card p {
+  color: #FFD700;
+}

@@ -1,0 +1,35 @@
+.programs-section {
+  background-color: #0c0a00;
+  padding-top: 20px;
+}
+
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+  color: #ffd700;
+  background-color: #0c0a00;
+}
+
+.card-title {
+  font-size: 30px;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.proceed-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.proceed-button {
+  color: #ffd700;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.proceed-button i {
+  font-size: 13px;
+}

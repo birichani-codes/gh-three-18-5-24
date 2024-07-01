@@ -1,0 +1,18 @@
+.gallery-section {
+  padding: 20px 0;
+}
+
+.gallery-title {
+  font-weight: bold;
+  color: gold;
+  font-size: 35px;
+  font-family: 'Overlock, sans-serif';
+  text-align: left;
+  }
+.carousel-image {
+  height: 500px; /* Carousel height */
+  object-fit: contain; /* Ensure the image fits within the carousel without cropping */
+}
+.gallery-section {
+  padding: 20px 0;
+}

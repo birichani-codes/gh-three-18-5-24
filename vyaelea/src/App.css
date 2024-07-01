@@ -1,0 +1,74 @@
+/* src/App.css */
+
+/* Common Container Styles */
+.common-container {
+    margin: 0 auto;
+    padding: 0 15px;
+    background-color: #0C0A00;
+    color: gold;
+    font-family: 'Overlock', sans-serif; /* Apply Overlock font */
+}
+
+/* NavBar styles */
+.navbar-toggler {
+    color: #FFD700;
+}
+
+.navbar-brand .logo-image {
+    height: 70px;
+    padding-right: 30px;
+}
+
+.navbar-nav .nav-link {
+    color: #FFD700;
+    font-weight: bold;
+    font-family: 'Overlock', sans-serif; /* Apply Overlock font */
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    margin-bottom: 20px;
+    font-family: 'Overlock', sans-serif; /* Apply Overlock font */
+}
+
+.equal-image {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #0C0A00;
+    color: #FFD700;
+    font-family: 'Overlock', sans-serif; /* Apply Overlock font */
+}
+
+.footer .footer-links a {
+    color: #FFD700;
+}
+
+.footer-logo {
+    width: 70px;
+}
+
+.jumbotron-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    border: 0;
+    font-family: 'Overlock', sans-serif; /* Apply Overlock font */
+}
+
+/* Dropdown Styles */
+.dropdown-menu a.dropdown-item:hover {
+    background-color: #0C0A00;
+    color: #FFD700;
+}
+
+.dropdown-menu a.dropdown-item.active {
+    background-color: #0C0A00;
+    color: #FFD700;
+    font-family: 'Overlock', sans-serif; /* Apply Overlock font */
+}

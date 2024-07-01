@@ -1,0 +1,18 @@
+.gallery-card {
+  border: 1px solid #0C0A00;
+  padding: 20px;
+  background-color:#0C0A00;
+}
+
+.gallery-title {
+  font-weight: bold;
+  color: gold;
+  font-size: 35px;
+  font-family: 'Overlock, sans-serif';
+  text-align: left;
+}
+
+.carousel-image {
+  height: 600px;
+  object-fit: contain;
+}

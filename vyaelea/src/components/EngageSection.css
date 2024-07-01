@@ -1,0 +1,148 @@
+/* Container styling */
+.contact-form-section .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Form styling */
+.contact-form {
+    background-color: #0C0A00;
+    padding: 20px;
+    border-radius: 8px;
+    color: #FFD700;
+}
+
+/* Form elements styling */
+.contact-form .form-control,
+.contact-form .form-select {
+    margin-bottom: 10px;
+    background-color: #0C0A00;
+    border: 1px solid #FFD700; /* Ensure border color is visible */
+    color: #FFD700;
+}
+
+/* Button styling */
+.contact-form .btn-primary {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #0C0A00;
+    color: #FFD700;
+    border: 1px solid #FFD700; /* Ensure border color is visible */
+}
+
+/* Section styling */
+.contact-form-section {
+    color: #FFD700;
+    background-color: #0C0A00;
+    font-size: 20px;
+    padding: 20px 0;
+}
+
+.contact-form-section h2 {
+    text-align: left;
+    margin-bottom: 10px;
+    color: #FFD700;
+}
+
+.contact-form-section p {
+    text-align: left;
+    margin-bottom: 20px;
+    color: gold;
+}
+
+/* Label styling */
+.expandable-label {
+    background-color: #0C0A00;
+    color: #FFD700;
+    border: 1px solid #0C0A00;
+}
+
+/* Input styling */
+.expandable-input {
+    background-color: #0C0A00;
+    color: gold;
+    border: 1px solid #FFD700; /* Ensure border color is visible */
+}
+
+.expandable-input::placeholder {
+    color: #FFD700;
+}
+
+.form-control.expandable-input {
+    background-color: #0C0A00;
+    color: #FFD700 !important;
+    border: 1px solid #FFD700; /* Ensure border color is visible */
+}
+
+/* Validation error styling */
+.form-validation-error {
+    display: none;
+}
+
+.invalid-feedback.form-validation-error {
+    display: block;
+}
+
+/* Captcha styling */
+.contact-form .captcha-container {
+    display: flex;
+    align-items: left;
+    margin-bottom: 5px;
+}
+
+.contact-form .captcha-container span {
+    margin-right: 10px;
+    color: #FFD700;
+}
+
+.contact-form .captcha-container input {
+    width: 50px;
+}
+
+/* Thank you message styling */
+.thank-you-message {
+    margin-top: 20px;
+    color: #FFD700;
+    text-align: center;
+}
+
+/* Remove overriding Flatpickr styles */
+#birthday {
+    font-size: 20px;
+    background: #0C0A00 !important;
+    color: gold !important;
+    border: 2px solid gold;
+    outline: none;
+}
+
+/* Adjust width of mb-3 */
+.mb-3 {
+    width: 60%;
+}
+
+/* Flatpickr styles */
+.flatpickr-calendar {
+    background-color: #0C0A00 !important;
+    color: gold !important;
+}
+
+.flatpickr-day {
+    color: gold !important;
+}
+
+.flatpickr-rContainer, .flatpickr-months .flatpickr-month, .flatpickr-weekdays {
+    background: #0C0A00 !important;
+    color: gold !important;
+}
+
+.flatpickr-day.today {
+    background: #0C0A00 !important;
+    color: gold !important;
+}
+
+.flatpickr-day.selected, .flatpickr-day.startRange, .flatpickr-day.endRange, .flatpickr-day.selected.inRange {
+    background: #0C0A00 !important;
+    color: gold !important;
+}

@@ -1,0 +1,7 @@
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION BEGIN
+PassengerAppRoot "/home/vyaefqgw/test.vyaelea.org/gh-three-18-5-24"
+PassengerBaseURI "/vyaelea"
+PassengerNodejs "/home/vyaefqgw/nodevenv/test.vyaelea.org/gh-three-18-5-24/14/bin/node"
+PassengerAppType node
+PassengerStartupFile server/server.js
+# DO NOT REMOVE. CLOUDLINUX PASSENGER CONFIGURATION END

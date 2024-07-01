@@ -1,8 +1,10 @@
-/* src/components/Container.css */
+/* src/components/Layout/Container.css */
+@import url('https://fonts.googleapis.com/css2?family=Overlock:wght@400;700&display=swap');
+
 .common-container {
-    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 15px;
-    background-color: #0C0A00; /* Assuming this is the common background color */
-    color: gold; /* Assuming this is the common text color */
+    padding: 30px 15px; /* Add padding to ensure space around content */
+    background-color: #0C0A00; /* Common background color */
+    color: gold; /* Common text color */
+    font-family: 'Overlock', sans-serif; /* Apply Overlock font */
 }

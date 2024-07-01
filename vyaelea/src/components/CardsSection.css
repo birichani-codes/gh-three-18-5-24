@@ -1,0 +1,9 @@
+.black-border-card {
+  border: 3px solid black; /* Set the border color to black */
+}
+
+/* Optional: Additional styling for card images */
+.equal-image {
+  object-fit: cover; /* Ensures the image covers the card properly */
+ /* Adjust the height as needed */
+}

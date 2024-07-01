@@ -1,0 +1,10 @@
+/* src/components/MissionStatement.css */
+.mission-section {
+  text-align: center;
+  padding: 30px 0; /* Ensure spacing around the mission section */
+}
+
+.mission-text {
+  font-size: 25px;
+  color: gold;
+}

@@ -1,0 +1,16 @@
+/* src/components/WhyFootball.css */
+.why-football-section {
+  margin: 50px 0; /* Ensure spacing around the why football section */
+}
+
+.why-football-title {
+  text-transform: capitalize;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+}
+
+.why-football-text {
+  font-size: 20px;
+  padding-right: 20px;
+}

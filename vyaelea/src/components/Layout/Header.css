@@ -1,0 +1,19 @@
+/* src/components/Header.css */
+.navbar-nav .dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #0C0A00;
+  border: none;
+}
+
+.navbar-nav .dropdown-menu.show {
+  display: block;
+}
+
+.navbar-nav .dropdown-item {
+  font-size: 18px;
+  color: #FFD700 !important;
+  font-family: 'Overlock', sans-serif;
+  font-weight: bold;
+  background-color: #0C0A00;
+}
